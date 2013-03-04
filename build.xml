@@ -1,4 +1,4 @@
-<project name="Alfresco Welsh Language Pack" default="build-jar" basedir=".">
+<project name="Alfresco Web Quick Start Welsh Language Pack" default="build-jar" basedir=".">
     
     <property file="build.properties" />
     <property file="${user.home}/build.properties"/>
@@ -17,7 +17,7 @@
     <property name="ascii.dir" value="${build.dir}/ascii" />
     <property name="classes.dir" value="${build.dir}/classes" />
     <property name="dist.dir" value="${build.dir}/dist" />
-    <property name="pkg.base" value="alfresco-langpack" />
+    <property name="pkg.base" value="alfresco-langpack-wcmqs" />
     <property name="zip.name" value="${pkg.base}_${locale.name}.zip" />
     <property name="jar.name" value="${pkg.base}_${locale.name}.jar" />
     <property name="zip.file" value="${dist.dir}/${zip.name}" />
